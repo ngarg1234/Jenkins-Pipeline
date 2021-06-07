@@ -1,9 +1,11 @@
 pipeline{
     //Directives
     agent any
+    // execute this pipeline in any available agent
     tools {
         maven 'maven'
     }
+    // environment 
 
     stages {
         // Specify various stage with in stages
